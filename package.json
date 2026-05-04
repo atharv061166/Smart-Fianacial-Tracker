@@ -1,0 +1,21 @@
+{
+  "name": "zenovatex-2025",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "Frontend"
+  ],
+  "scripts": {
+    "build": "cd Frontend && npm run build",
+    "dev": "cd Frontend && npm run dev",
+    "start": "cd Frontend && npm run start",
+    "lint": "cd Frontend && npm run lint",
+    "type-check": "cd Frontend && npm run type-check"
+  },
+  "dependencies": {
+    "@firebase/firestore": "^4.10.0",
+    "firebase": "^12.11.0",
+    "lodash": "^4.17.21",
+    "zenovatex-2025": "file:"
+  }
+}

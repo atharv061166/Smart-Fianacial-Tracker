@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart FinBuddy</string>
+    <string name="app_logo">App Logo</string>
+
+    <!-- Google Sign-In Web Client ID -->
+    <string name="default_web_client_id">687898768842-016uetfn4soao9j866tbn1hg50d2dr1k.apps.googleusercontent.com</string>
+
+    <!-- Alternative: Android Client ID (use if web client doesn't work) -->
+    <!-- <string name="default_web_client_id">687898768842-tupjmo38a2ilsneqpt1ev7m8korntu1d.apps.googleusercontent.com</string> -->
+    <!-- Auth strings -->
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_invalid_password">Password must be at least 6 characters</string>
+    <string name="error_passwords_dont_match">Passwords do not match</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_auth_failed">Authentication failed</string>
+    <string name="error_google_sign_in">Google sign in failed</string>
+</resources>

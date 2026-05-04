@@ -1,0 +1,66 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/home",
+        "destination": "/home.html"
+      },
+      {
+        "source": "/dashboard",
+        "destination": "/dashboard.html"
+      },
+      {
+        "source": "/dashboard/update",
+        "destination": "/dashboard-update.html"
+      },
+      {
+        "source": "/expenses",
+        "destination": "/expenses.html"
+      },
+      {
+        "source": "/income",
+        "destination": "/income.html"
+      },
+      {
+        "source": "/transactions",
+        "destination": "/transactions.html"
+      },
+      {
+        "source": "/transactions/add",
+        "destination": "/transactions-add.html"
+      },
+      {
+        "source": "/budgeting",
+        "destination": "/budgeting.html"
+      },
+      {
+        "source": "/portfolio",
+        "destination": "/portfolio.html"
+      },
+      {
+        "source": "/reports",
+        "destination": "/reports.html"
+      },
+      {
+        "source": "/fingpt",
+        "destination": "/fingpt.html"
+      },
+      {
+        "source": "/login",
+        "destination": "/login.html"
+      },
+      {
+        "source": "/signup",
+        "destination": "/signup.html"
+      }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
+  }
+}

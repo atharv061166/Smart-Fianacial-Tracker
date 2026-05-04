@@ -1,0 +1,31 @@
+# Smart Finance Tracker Android APK
+
+## 📱 Download Instructions
+
+**Note:** This is a placeholder file. To download the actual Android APK:
+
+### Option 1: Direct Download from Repository
+The actual APK file is located at:
+`Andorid App/app/build/outputs/apk/debug/app-debug.apk`
+
+### Option 2: Build from Source
+```bash
+cd "Andorid App"
+./gradlew assembleDebug
+```
+
+### Option 3: GitHub Release
+Check the GitHub releases page for the latest APK download.
+
+**File Location:** `C:\Projects\ZenovateX\ZenovateX-2025\Frontend\public\financebuddy.apk`
+
+---
+
+**Features:**
+- 📱 SMS-based transaction parsing
+- 🔄 Cloud synchronization
+- 📊 Real-time financial analytics
+- 🔐 Secure authentication
+- 📈 Budget tracking and management
+
+**Built for ZenovateX 2025 - Domain 3: Product & Innovation**

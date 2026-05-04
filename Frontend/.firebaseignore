@@ -1,0 +1,23 @@
+# Firebase ignore file
+node_modules/
+.git/
+.env*
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# Build artifacts
+.next/
+
+# Executable files (forbidden on Firebase Spark plan)
+*.apk
+*.exe
+*.bin
+*.app
+*.deb
+*.rpm
+*.dmg
+*.msi
+*.so
+*.dll

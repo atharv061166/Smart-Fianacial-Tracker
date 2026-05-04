@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M60,10 C32.4,10 10,32.4 10,60 C10,87.6 32.4,110 60,110 C87.6,110 110,87.6 110,60 C110,32.4 87.6,10 60,10 Z" />
+
+    <!-- Dollar Sign -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M60,25 L60,95 M50,35 C50,30 54,25 60,25 C66,25 70,30 70,35 C70,40 66,45 60,45 L55,45 C49,45 45,50 45,55 C45,60 49,65 55,65 L60,65 C66,65 70,70 70,75 C70,80 66,85 60,85 C54,85 50,80 50,85" />
+
+    <!-- Chart Lines -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M25,75 L35,65 L45,70 L55,55 L65,60 L75,45 L85,50 L95,35"
+        android:strokeColor="@color/accent"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+</vector>

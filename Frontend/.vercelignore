@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+
+# Large files
+*.pdf
+*.apk
+*.zip
+*.tar.gz
+
+# Documentation
+*.md
+PERFORMANCE_OPTIMIZATIONS.md
+INCOME_PAGE_FEATURES.md
+DATE_FILTERING_FEATURES.md
+MANUAL_TRANSACTIONS_FEATURES.md
+
+# Scripts
+scripts/
+
+# JSON exports
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!tailwind.config.ts
+!next.config.js
+!postcss.config.mjs
