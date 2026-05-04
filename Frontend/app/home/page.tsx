@@ -409,7 +409,7 @@ export default function HomePage() {
                   <div className="flex flex-col sm:flex-row gap-4 pt-6">
                     <Button
                       onClick={() => {
-                        window.open('https://1024terabox.com/s/1GZTaEhB146Yg61iTKQEZag', '_blank');
+                        window.open('https://mega.nz/file/xrUTWaZI#ZQAiyUG3kdAi1UhPK4xmcJ76DBSSPDT0tOoe8FN-SJY', '_blank');
                       }}
                       size="lg"
                       className="w-full sm:w-auto gap-1.5 hover:scale-105 transition-transform duration-300"
