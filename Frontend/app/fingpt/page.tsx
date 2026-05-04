@@ -50,7 +50,7 @@ export default function FinGPTPage() {
       ];
 
       // Make direct call to Google Gemini API
-      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=AIzaSyBpzz7beeRoTE1qBeGaKh-0DuSjN_1Wg9w`, {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=AIzaSyBfzg76-bXae0SWBlkyts88ust1JdijXcY`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
